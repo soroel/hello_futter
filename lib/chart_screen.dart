@@ -4,10 +4,12 @@ class ChatScreen extends StatefulWidget {
   final String friendName;
   final int friendIndex;
 
+
   const ChatScreen({
     Key? key,
     required this.friendName,
     required this.friendIndex,
+
   }) : super(key: key);
 
   @override
